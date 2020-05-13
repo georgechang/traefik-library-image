@@ -11,7 +11,10 @@ environment:
   matrix:
     - PLATFORM: windows-1809
       PLATFORM_DIR: ./windows/1809/
-
+    - PLATFORM: windows-1903
+      PLATFORM_DIR: ./windows/1903/
+    - PLATFORM: windows-1909
+      PLATFORM_DIR: ./windows/1909/
 
 matrix:
   fast_finish: true
