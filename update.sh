@@ -16,6 +16,7 @@ PLATFORMS=(
 	"windows/1809"
 	"windows/1903"
 	"windows/1909"
+	"windows/2004"
 )
 
 SCRIPT_DIRNAME_ABSOLUTEPATH="$(cd "$(dirname "$0")" && pwd -P)"
